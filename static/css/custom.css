@@ -1,0 +1,40 @@
+.navbar {
+    background:rgb(35, 36, 42);
+    height: 6.5rem;
+    border-bottom: 1px solid rgb(81, 81, 81);
+}
+
+.navbar-link {
+    margin-right: 35px;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    line-height: 6.5rem;
+}
+body {
+    background: rgb(35, 36, 42);
+}
+
+.navbar-input {
+    float: right;
+    margin-top: 1.25rem;
+}
+
+h1, h2, h3 {
+    color: rgb(255, 255, 255);
+}
+
+p {
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.army-link {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.army-link > a {
+    text-decoration: none;
+}
