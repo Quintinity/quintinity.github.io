@@ -8,6 +8,18 @@
         <link rel="stylesheet" href="/static/css/skeleton.min.css">
         <link rel="stylesheet" href="/static/css/custom.css">
         <link rel="icon" href="/static/images/favicon.png">
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-61045787-3"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            var host = window.location.hostname;
+            if(host != "localhost") {
+                function gtag() { dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'UA-61045787-3');
+            }
+        </script>
     </head>
     <body>
         <nav class="navbar">
@@ -17,8 +29,7 @@
                 <a class="navbar-link" href="/changelog.html">CHANGELOG</a>
                 <input class="navbar-input" type="text" placeholder="Search">
             </div>
-        </nav>
-        <div id="content" class="container">
+        </nav>        <div id="content" class="container">
             <div class="u-full-width" style="margin-top: 20px">
      <div class="box overview-box">
         <div style="width: 100%; margin-top: 10px; margin-bottom: 10px">
@@ -196,16 +207,6 @@
             <img width="36" height="36" style="display: flex; margin-left: 10px" height="100%" src="/static/images/Icons_symbols_vehicle_british_bren_carrier_symbol.png"/>
         </div>
     </a>
-    <a style="text-decoration: none; display: inline-block; margin-bottom: 10px" href="/unit/british/sexton_self_propelled_artillery.html">
-        <div class="box box-link" style="display: flex; margin-bottom: 0; height: 90px; width: 700px; ">
-            <img style="float: left; margin-right: 10px" height="100%" src="/static/images/Icons_portraits_vehicle_british_sexton_s_portrait.png"/>
-            <div style="display: block; width: 90%">
-                <p style="margin-bottom: 5px; margin-right: 5px">Sexton Self-Propelled Artillery</p>
-                <p style="font-weight: 200; font-size: 13px; margin-right: 5px">The Sexton Self-Propelled Artillery uses the range of its 25-pounder main gun to provide heavy indirect fire from a position far behind the front line.</p>
-            </div>
-            <img width="36" height="36" style="display: flex; margin-left: 10px" height="100%" src="/static/images/Icons_symbols_vehicle_british_sexton_symbol.png"/>
-        </div>
-    </a>
     <a style="text-decoration: none; display: inline-block; margin-bottom: 10px" href="/unit/british/valentine_mk_xi_tank.html">
         <div class="box box-link" style="display: flex; margin-bottom: 0; height: 90px; width: 700px; ">
             <img style="float: left; margin-right: 10px" height="100%" src="/static/images/Icons_portraits_vehicle_british_valentine_s_portrait.png"/>
@@ -214,6 +215,16 @@
                 <p style="font-weight: 200; font-size: 13px; margin-right: 5px">The Valentine Mk. XI Tank is a light infantry tank, improved over earlier variants with more powerful engine and a long barrel 75mm main gun.</p>
             </div>
             <img width="36" height="36" style="display: flex; margin-left: 10px" height="100%" src="/static/images/Icons_symbols_vehicle_british_valentine_symbol.png"/>
+        </div>
+    </a>
+    <a style="text-decoration: none; display: inline-block; margin-bottom: 10px" href="/unit/british/sexton_self_propelled_artillery.html">
+        <div class="box box-link" style="display: flex; margin-bottom: 0; height: 90px; width: 700px; ">
+            <img style="float: left; margin-right: 10px" height="100%" src="/static/images/Icons_portraits_vehicle_british_sexton_s_portrait.png"/>
+            <div style="display: block; width: 90%">
+                <p style="margin-bottom: 5px; margin-right: 5px">Sexton Self-Propelled Artillery</p>
+                <p style="font-weight: 200; font-size: 13px; margin-right: 5px">The Sexton Self-Propelled Artillery uses the range of its 25-pounder main gun to provide heavy indirect fire from a position far behind the front line.</p>
+            </div>
+            <img width="36" height="36" style="display: flex; margin-left: 10px" height="100%" src="/static/images/Icons_symbols_vehicle_british_sexton_symbol.png"/>
         </div>
     </a>
     <a style="text-decoration: none; display: inline-block; margin-bottom: 10px" href="/unit/british/churchill_avre.html">
@@ -226,16 +237,6 @@
             <img width="36" height="36" style="display: flex; margin-left: 10px" height="100%" src="/static/images/Icons_symbols_vehicle_british_churchill_avre_symbol.png"/>
         </div>
     </a>
-    <a style="text-decoration: none; display: inline-block; margin-bottom: 10px" href="/unit/british/land_mattress_multiple_rocket_launcher.html">
-        <div class="box box-link" style="display: flex; margin-bottom: 0; height: 90px; width: 700px; ">
-            <img style="float: left; margin-right: 10px" height="100%" src="/static/images/Icons_portraits_vehicle_british_land_mattress_s_portrait.png"/>
-            <div style="display: block; width: 90%">
-                <p style="margin-bottom: 5px; margin-right: 5px">&#x27;Land Mattress&#x27; Multiple Rocket Launcher</p>
-                <p style="font-weight: 200; font-size: 13px; margin-right: 5px">Named after its naval counterpart the &#x27;Sea Mattress&#x27;, this weapon was equipped with RP-3 rockets and naval 5-inch shells as warheads.</p>
-            </div>
-            <img width="36" height="36" style="display: flex; margin-left: 10px" height="100%" src="/static/images/Icons_symbols_vehicle_british_land_mattress_symbol.png"/>
-        </div>
-    </a>
     <a style="text-decoration: none; display: inline-block; margin-bottom: 10px" href="/unit/british/infiltration_commandos.html">
         <div class="box box-link" style="display: flex; margin-bottom: 0; height: 90px; width: 700px; ">
             <img style="float: left; margin-right: 10px" height="100%" src="/static/images/Icons_portraits_unit_british_commando_s_portrait.png"/>
@@ -244,6 +245,16 @@
                 <p style="font-weight: 200; font-size: 13px; margin-right: 5px">Commandos are the elite of the British army, formed from volunteers across all the branches of the military. They take on the most difficult operations, performing daring raids behind enemy lines.</p>
             </div>
             <img width="36" height="36" style="display: flex; margin-left: 10px" height="100%" src="/static/images/Icons_symbols_unit_british_commandos_symbol.png"/>
+        </div>
+    </a>
+    <a style="text-decoration: none; display: inline-block; margin-bottom: 10px" href="/unit/british/land_mattress_multiple_rocket_launcher.html">
+        <div class="box box-link" style="display: flex; margin-bottom: 0; height: 90px; width: 700px; ">
+            <img style="float: left; margin-right: 10px" height="100%" src="/static/images/Icons_portraits_vehicle_british_land_mattress_s_portrait.png"/>
+            <div style="display: block; width: 90%">
+                <p style="margin-bottom: 5px; margin-right: 5px">&#x27;Land Mattress&#x27; Multiple Rocket Launcher</p>
+                <p style="font-weight: 200; font-size: 13px; margin-right: 5px">Named after its naval counterpart the &#x27;Sea Mattress&#x27;, this weapon was equipped with RP-3 rockets and naval 5-inch shells as warheads.</p>
+            </div>
+            <img width="36" height="36" style="display: flex; margin-left: 10px" height="100%" src="/static/images/Icons_symbols_vehicle_british_land_mattress_symbol.png"/>
         </div>
     </a>
     <a style="text-decoration: none; display: inline-block; margin-bottom: 10px" href="/unit/british/royal_engineer_recovery_squad.html">
@@ -266,16 +277,6 @@
             <img width="36" height="36" style="display: flex; margin-left: 10px" height="100%" src="/static/images/Icons_symbols_vehicle_british_churchill_crocodile_symbol.png"/>
         </div>
     </a>
-    <a style="text-decoration: none; display: inline-block; margin-bottom: 10px" href="/unit/british/m3_half_track.html">
-        <div class="box box-link" style="display: flex; margin-bottom: 0; height: 90px; width: 700px; ">
-            <img style="float: left; margin-right: 10px" height="100%" src="/static/images/Icons_portraits_vehicle_aef_halftrack_m3_s_portrait.png"/>
-            <div style="display: block; width: 90%">
-                <p style="margin-bottom: 5px; margin-right: 5px">M3 Half-track</p>
-                <p style="font-weight: 200; font-size: 13px; margin-right: 5px">The open-topped M3 is spacious enough to carry two squads and its .50 cal heavy machine gun provides good firepower. This half-track can deploy weapons on the field for infantry units.</p>
-            </div>
-            <img width="36" height="36" style="display: flex; margin-left: 10px" height="100%" src="/static/images/Icons_symbols_vehicle_aef_halftrack_m3_symbol.png"/>
-        </div>
-    </a>
     <a style="text-decoration: none; display: inline-block; margin-bottom: 10px" href="/unit/british/tank_hunter_infantry_section.html">
         <div class="box box-link" style="display: flex; margin-bottom: 0; height: 90px; width: 700px; ">
             <img style="float: left; margin-right: 10px" height="100%" src="/static/images/Icons_portraits_unit_british_tommy_s_portrait.png"/>
@@ -286,11 +287,300 @@
             <img width="36" height="36" style="display: flex; margin-left: 10px" height="100%" src="/static/images/Icons_symbols_unit_british_tommy_with_tommy_symbol.png"/>
         </div>
     </a>
+    <a style="text-decoration: none; display: inline-block; margin-bottom: 10px" href="/unit/british/m3_half_track.html">
+        <div class="box box-link" style="display: flex; margin-bottom: 0; height: 90px; width: 700px; ">
+            <img style="float: left; margin-right: 10px" height="100%" src="/static/images/Icons_portraits_vehicle_aef_halftrack_m3_s_portrait.png"/>
+            <div style="display: block; width: 90%">
+                <p style="margin-bottom: 5px; margin-right: 5px">M3 Half-track</p>
+                <p style="font-weight: 200; font-size: 13px; margin-right: 5px">The open-topped M3 is spacious enough to carry two squads and its .50 cal heavy machine gun provides good firepower. This half-track can deploy weapons on the field for infantry units.</p>
+            </div>
+            <img width="36" height="36" style="display: flex; margin-left: 10px" height="100%" src="/static/images/Icons_symbols_vehicle_aef_halftrack_m3_symbol.png"/>
+        </div>
+    </a>
 
+    <!-- Commanders --> 
     <h5 class="hr-label">Commanders</h5>
     <hr>
-    <p>Coming soon.</p>
-   
+    <a style="text-decoration: none; display: inline-block; margin-bottom: 10px" href="/commander/british/advanced_emplacement_regiment.html">
+        <div class="box box-link" style="display: flex; margin-bottom: 0; height: 90px; width: 450px; margin-right: 100px">
+            <img style="float: left; margin-right: 10px; margin-top: 3px; margin-bottom: 3px; margin-left: 3px" height="84px" src="/static/images/Icons_commander_portrait_british_commander_07_large.png"/>
+            <div style="display: block; width: 90%">
+                <p style="margin-bottom: 0px; margin-right: 5px">Advanced Emplacement Regiment</p>
+                <div style="inline-flex">
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_defensive_operations.png"/>
+                        <span class="cp-text">0</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_advanced_assembly.png"/>
+                        <span class="cp-text">3</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_improved_fortification.png"/>
+                        <span class="cp-text">3</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_counter_battery.png"/>
+                        <span class="cp-text">4</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_precision_barrage.png"/>
+                        <span class="cp-text">10</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+    <a style="text-decoration: none; display: inline-block; margin-bottom: 10px" href="/commander/british/royal_artillery_regiment.html">
+        <div class="box box-link" style="display: flex; margin-bottom: 0; height: 90px; width: 450px; margin-right: 100px">
+            <img style="float: left; margin-right: 10px; margin-top: 3px; margin-bottom: 3px; margin-left: 3px" height="84px" src="/static/images/Icons_commander_portrait_british_commander_05_large.png"/>
+            <div style="display: block; width: 90%">
+                <p style="margin-bottom: 0px; margin-right: 5px">Royal Artillery Regiment</p>
+                <div style="inline-flex">
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_early_warning.png"/>
+                        <span class="cp-text">3</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_coordinated_fire_operation.png"/>
+                        <span class="cp-text">4</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_observation_detachment_valentine.png"/>
+                        <span class="cp-text">5</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_artillery_support_group_sexton.png"/>
+                        <span class="cp-text">9</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_perimeter_overwatch.png"/>
+                        <span class="cp-text">10</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+    <a style="text-decoration: none; display: inline-block; margin-bottom: 10px" href="/commander/british/commando_regiment.html">
+        <div class="box box-link" style="display: flex; margin-bottom: 0; height: 90px; width: 450px; margin-right: 100px">
+            <img style="float: left; margin-right: 10px; margin-top: 3px; margin-bottom: 3px; margin-left: 3px" height="84px" src="/static/images/Icons_commander_portrait_british_commander_01_large.png"/>
+            <div style="display: block; width: 90%">
+                <p style="margin-bottom: 0px; margin-right: 5px">Commando Regiment</p>
+                <div style="inline-flex">
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_glider_operation.png"/>
+                        <span class="cp-text">3</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_smoke_raid_operation.png"/>
+                        <span class="cp-text">3</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_assault_operation.png"/>
+                        <span class="cp-text">4</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_mortar_cover_operation.png"/>
+                        <span class="cp-text">8</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_air_superiority_operation.png"/>
+                        <span class="cp-text">12</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+    <a style="text-decoration: none; display: inline-block; margin-bottom: 10px" href="/commander/british/royal_engineer_regiment.html">
+        <div class="box box-link" style="display: flex; margin-bottom: 0; height: 90px; width: 450px; margin-right: 100px">
+            <img style="float: left; margin-right: 10px; margin-top: 3px; margin-bottom: 3px; margin-left: 3px" height="84px" src="/static/images/Icons_commander_portrait_british_commander_04_large.png"/>
+            <div style="display: block; width: 90%">
+                <p style="margin-bottom: 0px; margin-right: 5px">Royal Engineer Regiment</p>
+                <div style="inline-flex">
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_upgrades_icon_upgrade_aef_m2_flamethrower.png"/>
+                        <span class="cp-text">0</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_command_vehicle_operation.png"/>
+                        <span class="cp-text">2</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_crew_repair_operation.png"/>
+                        <span class="cp-text">6</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_burn_them_out_operation.png"/>
+                        <span class="cp-text">8</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_demolitions_operation.png"/>
+                        <span class="cp-text">12</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+    <a style="text-decoration: none; display: inline-block; margin-bottom: 10px" href="/commander/british/mobile_assault_regiment.html">
+        <div class="box box-link" style="display: flex; margin-bottom: 0; height: 90px; width: 450px; margin-right: 100px">
+            <img style="float: left; margin-right: 10px; margin-top: 3px; margin-bottom: 3px; margin-left: 3px" height="84px" src="/static/images/Icons_commander_portrait_british_commander_08_large.png"/>
+            <div style="display: block; width: 90%">
+                <p style="margin-bottom: 0px; margin-right: 5px">Mobile Assault Regiment</p>
+                <div style="inline-flex">
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_upgrades_icon_upgrade_aef_m2_flamethrower.png"/>
+                        <span class="cp-text">0</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_advanced_cover_combat.png"/>
+                        <span class="cp-text">2</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_units_unit_british_commando_from_building.png"/>
+                        <span class="cp-text">3</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_crew_repair_operation.png"/>
+                        <span class="cp-text">6</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_vehicles_vehicle_british_land_mattress.png"/>
+                        <span class="cp-text">8</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+    <a style="text-decoration: none; display: inline-block; margin-bottom: 10px" href="/commander/british/tactical_support_regiment.html">
+        <div class="box box-link" style="display: flex; margin-bottom: 0; height: 90px; width: 450px; margin-right: 100px">
+            <img style="float: left; margin-right: 10px; margin-top: 3px; margin-bottom: 3px; margin-left: 3px" height="84px" src="/static/images/Icons_commander_portrait_british_commander_02_large.png"/>
+            <div style="display: block; width: 90%">
+                <p style="margin-bottom: 0px; margin-right: 5px">Tactical Support Regiment</p>
+                <div style="inline-flex">
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_recovery_engineers.png"/>
+                        <span class="cp-text">1</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_command_vehicle_operation.png"/>
+                        <span class="cp-text">2</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_resupply_operation_mortar.png"/>
+                        <span class="cp-text">4</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_forward_observation_post.png"/>
+                        <span class="cp-text">10</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_vanguard_operations_crocodile.png"/>
+                        <span class="cp-text">13</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+    <a style="text-decoration: none; display: inline-block; margin-bottom: 10px" href="/commander/british/vanguard_operations_regiment.html">
+        <div class="box box-link" style="display: flex; margin-bottom: 0; height: 90px; width: 450px; margin-right: 100px">
+            <img style="float: left; margin-right: 10px; margin-top: 3px; margin-bottom: 3px; margin-left: 3px" height="84px" src="/static/images/Icons_commander_portrait_british_commander_03_large.png"/>
+            <div style="display: block; width: 90%">
+                <p style="margin-bottom: 0px; margin-right: 5px">Vanguard Operations Regiment</p>
+                <div style="inline-flex">
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_raid_operation.png"/>
+                        <span class="cp-text">1</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_forward_logistics_glider.png"/>
+                        <span class="cp-text">3</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_crew_repair_operation.png"/>
+                        <span class="cp-text">6</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_strafing_support.png"/>
+                        <span class="cp-text">12</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_vanguard_operations_crocodile.png"/>
+                        <span class="cp-text">13</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+    <a style="text-decoration: none; display: inline-block; margin-bottom: 10px" href="/commander/british/special_weapons_regiment.html">
+        <div class="box box-link" style="display: flex; margin-bottom: 0; height: 90px; width: 450px; margin-right: 100px">
+            <img style="float: left; margin-right: 10px; margin-top: 3px; margin-bottom: 3px; margin-left: 3px" height="84px" src="/static/images/Icons_commander_portrait_british_commander_06_large.png"/>
+            <div style="display: block; width: 90%">
+                <p style="margin-bottom: 0px; margin-right: 5px">Special Weapons Regiment</p>
+                <div style="inline-flex">
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_tank_hunters.png"/>
+                        <span class="cp-text">2</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_resupply_halftrack.png"/>
+                        <span class="cp-text">4</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_hold_the_line.png"/>
+                        <span class="cp-text">8</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_concentrated_fire_operation.png"/>
+                        <span class="cp-text">12</span>
+                    </div>
+                    <div style="float: left; margin-right: 10px; position: relative; height: 56px; margin-top: 5px; margin-left: 5px">
+                        <img height="56px" width="56px" src="/static/images/ability_frame.png"/>
+                        <img style="position: absolute; left: 0; top: 0" height="56px" width="56px" src="/static/images/Icons_commander_cmdr_british_vanguard_operations_crocodile.png"/>
+                        <span class="cp-text">13</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
 </div>
 
 

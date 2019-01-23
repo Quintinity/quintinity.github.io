@@ -112,3 +112,26 @@ span {
 .link:hover {
     color: #0FA0CE;
 }
+
+/* Command points orange text */
+.cp-text {
+    position: absolute;
+    color: orange;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    top: 37px;
+
+    text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000,
+    0px 0px 10px #000;
+}

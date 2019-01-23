@@ -8,6 +8,18 @@
         <link rel="stylesheet" href="/static/css/skeleton.min.css">
         <link rel="stylesheet" href="/static/css/custom.css">
         <link rel="icon" href="/static/images/favicon.png">
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-61045787-3"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            var host = window.location.hostname;
+            if(host != "localhost") {
+                function gtag() { dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'UA-61045787-3');
+            }
+        </script>
     </head>
     <body>
         <nav class="navbar">
@@ -17,8 +29,7 @@
                 <a class="navbar-link" href="/changelog.html">CHANGELOG</a>
                 <input class="navbar-input" type="text" placeholder="Search">
             </div>
-        </nav>
-        <div id="content" class="container">
+        </nav>        <div id="content" class="container">
             <div class="u-full-width" style="text-align: center; margin-top: 20px">
     <h3>CoH2 Index</h3>
     <p>This site contains auto-generated wiki pages for Company of Heroes 2, including units and commanders.</p>
