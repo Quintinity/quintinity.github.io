@@ -69,6 +69,11 @@ table {
     background-color: rgb(41, 41, 41);
 }
 
+.box-dispatch {
+    background-color: rgb(33, 51, 130);
+    border-color: rgb(49, 73, 182);
+}
+
 /* The overview-box describes the big floating info box on the left size of each page */
 .overview-box  {
     display: inline-block;
